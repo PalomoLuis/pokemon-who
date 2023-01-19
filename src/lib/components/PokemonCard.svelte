@@ -78,7 +78,7 @@
 
     const hideElement = () => {
         const tl = gsap.timeline();
-        tl.to('.loading', { duration: 1, opacity: 0}, 'frame1+=0.5')
+        tl.to('.loading', { duration: 1, opacity: 0}, 'frame1+=1')
         tl.set('.loading', { display: 'none' },  '>+=0.1')
     }
 </script>
