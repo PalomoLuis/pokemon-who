@@ -1,6 +1,6 @@
 const API = 'https://pokeapi.co/api/v2/pokemon/' // plus id number: 1
 
-export const prerender = true;
+// export const prerender = true;
 
 function getRandomNum (num) {
     return Math.floor(Math.random() * num) + 1;

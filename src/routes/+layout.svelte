@@ -2,7 +2,7 @@
     import "../app.css";
     import reloadIcon from '$lib/images/reload-icon.png';
 
-    export const prerender = true;
+    // export const prerender = true;
 
     const reloadWindow = () => {
         location.reload()
